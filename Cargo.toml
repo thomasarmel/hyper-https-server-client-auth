@@ -1,0 +1,16 @@
+[package]
+name = "hyper-https-server-client-auth"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rustls = "0.22.1"
+tokio = { version = "1.35.1", features = ["full"] }
+tokio-rustls = "0.25.0"
+hyper = { version = "1.1.0", features = ["server"] }
+hyper-util = { version = "0.1.2", features = ["full"] }
+rustls-pemfile = { version = "2.0.0", features = [] }
+http-body-util = "0.1.0"
+x509-certificate = "0.23.1"
