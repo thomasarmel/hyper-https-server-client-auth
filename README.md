@@ -3,7 +3,7 @@
 ---
 
 *This code is a rewrite of the [excellent example of **aramperes**](https://github.com/aramperes/hyper-server-ssl-auth-example).
-I basically rewrote it to use the latest version of all crates and remove the `openssl` dependency, which can be a pain to install.*
+I basically rewrote it to use the latest version of all crates and removed the `openssl` dependency, which can be a pain to install.*
 
 ---
 
